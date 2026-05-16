@@ -1,3 +1,4 @@
+//proposed design
 module stopwatch #(
     parameter integer COUNT_LIMIT = 99_999 // Assuming 100MHz clock for 1ms tick
 )(
