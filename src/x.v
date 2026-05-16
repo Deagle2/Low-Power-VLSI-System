@@ -11,8 +11,8 @@ module stopwatch #(
     output reg [5:0]  secs = 0,
     output reg [9:0]  msecs = 0,
     output reg [5:0]  lap_mins = 0,
-    output reg [5:0]  lap_secs = 0,      // Renamed to match logic
-    output reg [9:0]  lap_msecs = 0      // Renamed to match logic
+    output reg [5:0]  lap_secs = 0,      
+    output reg [9:0]  lap_msecs = 0     
 
 );
 reg running = 0;
@@ -37,7 +37,7 @@ always @(posedge clk or negedge rst_n) begin
         else 
             clkdiv <= clkdiv + 1;
     end else if (clkdiv != 0) begin   
-        clkdiv <= 0; //Power aware change ~ IGC? 
+        clkdiv <= 0; //Power aware change ~ IGC
     end 
 end
 
