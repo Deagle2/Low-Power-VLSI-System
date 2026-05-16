@@ -1,0 +1,8 @@
+    Hinst Name       Module Name          Inst Count           Total Area
+----------------------------------------------------------------------
+stopwatch                                        242             2210.905
+ RC_CG_HIER_INST0    RC_CG_MOD                     1               17.409
+ RC_CG_HIER_INST1    RC_CG_MOD_1                   2               25.735
+ RC_CG_HIER_INST2    RC_CG_MOD_2                   1               17.409
+ RC_CG_HIER_INST3    RC_CG_MOD_3                   1               17.409
+ RC_CG_HIER_INST4    RC_CG_MOD_4                   1               17.409
